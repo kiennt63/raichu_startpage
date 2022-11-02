@@ -20,7 +20,7 @@ main {
     justify-content: center;
     padding: var(--space-m);
     row-gap: var(--space-l);
-    width: 20rem;
+    width: 40rem;
 }
 
 header {
@@ -112,7 +112,8 @@ header img { width: 6rem; }
     #search input:focus {
         background-color: hsl(var(--color-white-hsl) / 0.05);
         background-image: var(--svg-search-light-gray);
-        outline-color: var(--color-orange);
+        /* outline-color: var(--color-orange); */
+        outline-color: hsl(var(--color-white-hsl) / 0.7);
     }
 }
 
@@ -127,7 +128,8 @@ header img { width: 6rem; }
     #search input:focus {
         background-color: var(--color-white);
         background-image: var(--svg-search-gray);
-        outline-color: var(--color-orange);
+        /* outline-color: var(--color-orange); */
+        outline-color: hsl(var(--color-white-hsl) / 0.7);
     }
 }
 
@@ -175,7 +177,7 @@ header img { width: 6rem; }
 @media screen and (min-width: 48em) {
     #traichu {
         padding: var(--space-m);
-        width: 40rem;
+        width: 50rem;
     }
 
     header img { width: 8rem; }
