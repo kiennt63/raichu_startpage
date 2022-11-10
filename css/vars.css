@@ -4,11 +4,11 @@
     https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
     https://css-tricks.com/color-alpha-anywhere/
     */
-    --color-black-hsl: 0 0% 11%; /* #1C1C1C */
+    --color-black-hsl: 220 17% 17%; /* #2E3440 */
     --color-black: hsl(var(--color-black-hsl));
-    --color-orange-hsl: 30 100% 50%; /* #FD7E00 */
+    --color-orange-hsl: 40 71% 73%; /* #FD7E00 */
     --color-orange: hsl(var(--color-orange-hsl));
-    --color-white-hsl: 0 0% 95%; /* #F1F1F1 */
+    --color-white-hsl: 219 28% 88%; /* #D8DEE9 */
     --color-white: hsl(var(--color-white-hsl));
 
     /* Font-families */
