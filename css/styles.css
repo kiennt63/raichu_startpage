@@ -97,7 +97,7 @@ header img { width: 6rem; }
     font-family: var(--font-sans-serif);
     line-height: 1.5;
     outline: 0.25rem solid transparent;
-    padding: var(--space-m);
+    padding: var(--space-s) var(--space-m);
     width: 100%;
 }
 
