@@ -65,17 +65,17 @@ header img { width: 6rem; }
 }
 
 #dock ul li:nth-child(1) a:focus,
-#dock ul li:nth-child(1) a:hover { fill: #5E81AC }
+#dock ul li:nth-child(1) a:hover { fill: var(--dock-hover-1) }
 #dock ul li:nth-child(2) a:focus,
-#dock ul li:nth-child(2) a:hover { fill: #81A1C1 }
+#dock ul li:nth-child(2) a:hover { fill: var(--dock-hover-2) }
 #dock ul li:nth-child(3) a:focus,
-#dock ul li:nth-child(3) a:hover { fill: #D08770 }
+#dock ul li:nth-child(3) a:hover { fill: var(--dock-hover-3) }
 #dock ul li:nth-child(4) a:focus,
-#dock ul li:nth-child(4) a:hover { fill: #EBCB8B }
+#dock ul li:nth-child(4) a:hover { fill: var(--dock-hover-4) }
 #dock ul li:nth-child(5) a:focus,
-#dock ul li:nth-child(5) a:hover { fill: #A3BE8C }
+#dock ul li:nth-child(5) a:hover { fill: var(--dock-hover-5) }
 #dock ul li:nth-child(6) a:focus,
-#dock ul li:nth-child(6) a:hover { fill: #B48EAD }
+#dock ul li:nth-child(6) a:hover { fill: var(--dock-hover-6) }
 
 #search {
     display: flex;
