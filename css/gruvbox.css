@@ -4,19 +4,19 @@
     https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
     https://css-tricks.com/color-alpha-anywhere/
     */
-    --color-black-hsl: 240 21% 15%;
+    --color-black-hsl: 0 0% 15%;
     --color-black: hsl(var(--color-black-hsl));
-    --color-orange-hsl: 232 97% 85%;
+    --color-orange-hsl: 167 23% 59%;
     --color-orange: hsl(var(--color-orange-hsl));
-    --color-white-hsl: 205 64% 88%;
+    --color-white-hsl: 38 41% 71%;
     --color-white: hsl(var(--color-white-hsl));
 
-    --dock-hover-1: #89b4fa;
-    --dock-hover-2: #b4befe;
-    --dock-hover-3: #eba0ac;
-    --dock-hover-4: #f5c2e7;
-    --dock-hover-5: #f2cdcd;
-    --dock-hover-6: #f5e0dc;
+    --dock-hover-1: #5E81AC;
+    --dock-hover-2: #7daea3;
+    --dock-hover-3: #ea6962;
+    --dock-hover-4: #d8a657;
+    --dock-hover-5: #89b482;
+    --dock-hover-6: #d3869b;
 
     /* Font-families */
     --font-monospace: "Ligamononoki Nerd Font", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
